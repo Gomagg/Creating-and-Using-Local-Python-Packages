@@ -1,4 +1,4 @@
-huimport random
+import random
 
 #creating a list of play options
 #"R" represents Rock, "P" represents Paper, "S" represents Scissors
