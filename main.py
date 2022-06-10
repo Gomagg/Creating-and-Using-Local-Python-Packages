@@ -23,26 +23,25 @@ while player == False:
                 "Both player's moves in the format: Player (Rock) : Computer (Paper) \n You lose!"
             )
         else:
-            print("You're the winner!")
+            print("Both player's moves in the format: Player (Rock) : Computer (Paper) \n You're the winner!")
     elif player == "P":
         if computer == "S":
             print(
                 "Both player's moves in the format: Player (Paper) : Computer (Scissors) \n You lose!"
             )
         else:
-            print("You're the winner!")
+            print("Both player's moves in the format: Player (Rock) : Computer (Paper) \n You're the winner!")
     elif player == "S":
         if computer == "R":
             print(
                 "Both player's moves in the format: Player (Scissors) : Computer (Rock) \n You lose!"
             )
         else:
-            print("You're the winner!")
+            print("Both player's moves in the format: Player (Rock) : Computer (Paper) \n You're the winner!")
     else:
         print("not amongst our options")
     #player was set to True, but we want it to be False so the loop continues
     player = False
-    # computer = t[randint(0,2)]
 
 #References:
 #https://thehelloworldprogram.com/python/python-game-rock-paper-scissors/
